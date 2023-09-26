@@ -1,0 +1,15 @@
+sudo apt-get update 
+
+lsblk
+
+sudo file -s /dev/filename  --> To go in the root directory
+
+sudo file -t ext4 /dev/filename  -->Use for formatting
+
+sudo mkdir ebsvolume  -->cmd to make a directory
+
+ls  --> To show all the repository in the current Directory
+
+sudo mount /dev/filename ebsvolume
+
+df -h
