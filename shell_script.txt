@@ -1,0 +1,4 @@
+#!/bin/bash
+apt-get update -y
+apt-get install nginx
+echo "welcome to instance2" > var/www/html/index.html
