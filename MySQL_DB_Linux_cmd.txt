@@ -29,5 +29,5 @@ sql queries.
 
       --> INSERT INTO table1 VALUES (1, 'Virat'), (2, 'Sachin'), (3, 'Dhoni'), (4, 'ABD');
 
-      -->SELECT FROM table1;
+      -->SELECT * FROM table1;
 
