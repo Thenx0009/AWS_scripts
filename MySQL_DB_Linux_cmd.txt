@@ -14,7 +14,7 @@ Step 4: Login to MySql as a root
       -->sudo mysql
 
 Step 5: Update the password for the Mysql Server 
-      -->ALTER USER 'root'@'localhost' IDENTIFIED WITH        mysql_native_password BY 'admin12345';
+      -->ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin12345';
 
       -->FLUSH PRIVILEGES;   (use to remove garbage collection)
 
