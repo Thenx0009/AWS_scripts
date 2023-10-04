@@ -1,0 +1,57 @@
+#Bootstraping
+#!/bin/bash 
+apt-get update
+apt-get install nginx -y
+echo "welcome.........1" > /var/www/html/index.html
+
+#To deal with CLI
+
+aws --version ### for checking version of aws cli
+
+aws configure ### for configuring IAM user
+
+### then give keys to cmd
+aws iam get-user ### for checking user details
+
+aws s3 ls ###for checking s3 buckets
+
+aws s3 mb s3://abc-01.bucket ### to create bucket
+
+aws s3 rb s3://abc-01.bucket ### to remove bucket
+
+###To launch instance
+aws ec2 run-instances --image-id ami-0f5ee92e2d63afc18 --count 1 --instance-type t2.micro --key-name example-key --security-group-ids sg-0d134a6491c84df04 --subnet-id subnet-052bd5bc67c9b9479
+
+###to delete instance
+aws ec2 terminate-instances --instance-ids i-0d42bbf7bc8e017bc
+
+###for role
+aws s3 cp s3://bucket/file_name .
+
+###for system manager
+
+sudo yum install httpd -y #for installing apache
+sudo systemctl start httpd  #for starting apache server
+
+
+### for  monitoring
+
+sudo su -
+ping (paste ip of instance) -l 4096
+
+### for utiliztion
+
+sudo su -
+sha1sum /dev/zero &
+top
+
+ps -a #to stop this
+kill -9 4164
+exit
+
+
+
+
+
+
+
