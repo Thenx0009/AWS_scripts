@@ -1,0 +1,68 @@
+Step1: Go To The Downloads Where The Key Pair Is Stored And Open The Git Bash There.
+
+Step2: Go To The Linux Instance--> Connect To Instance--> SSH Client--> Copy Example Cmd To Git Bash.
+
+EXAMPLE:ec2-15-207-108-76.ap-south-1.compute.amazonaws.com 
+
+Step3: Give yes permission to connect.
+
+Step4: Commands to see configuration of an instance.
+
+$cat /etc/os-release
+-->to see the os of an instance.
+
+$free -m
+-->to see the RAM of a machine.
+
+$lscpu
+-->to see the number of CPU.
+
+$df -h
+-->to see the 8GB Root device.
+
+$if a
+-->to see the ip address of instance.
+
+$sudo shutdown -h now
+-->to power off the instance.
+
+#################################################################
+
+Step5: To Start The Nginx Server
+
+$sudo -i
+-->to login as a root-user
+
+$sudo apt-get upate
+
+$sudo apt-get install nginx
+-->to install the nginx server
+
+$nginx -t
+-->to check the nginx configuration.
+
+$service nginx status
+-->to check nginx service has been STARTED or NOT.
+
+$curl localhost
+-->to access the localhost.
+[OUTPUT===>Welcome to nginx!]
+
+$cd /var/www/html/
+-->to see the where the above outcome has come.
+
+$ls
+-->there is a file{cat index.nginx-debian.html}
+
+$cat index.nginx-debian.html
+
+$echo "Hello"> index.html
+
+$curl localhost
+
+
+
+
+
+
+ 
