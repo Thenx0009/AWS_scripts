@@ -1,3 +1,5 @@
+**************CMDs for BASH to start the LINUX Instance**********
+
 Step1: Go To The Downloads Where The Key Pair Is Stored And Open The Git Bash There.
 
 Step2: Go To The Linux Instance--> Connect To Instance--> SSH Client--> Copy Example Cmd To Git Bash.
