@@ -1,15 +1,29 @@
-sudo apt-get update 
+$ sudo apt-get update 
 
-lsblk
+$ lsblk
+--> List all the elastic block storage attach to the instance.
 
-sudo file -s /dev/filename  --> To go in the root directory
+$ sudo file -s /dev/devicename  
+--> To go in the root directory
 
-sudo mkfs -t ext4 /dev/filename  -->Use for formatting
+$ sudo mkfs -t ext4 /dev/devicename  
+--> Use for formatting
 
-sudo mkdir ebsvolume  -->cmd to make a directory
+$ sudo mkdir ebsvolume  
+--> CMD to make a directory
 
-ls  --> To show all the repository in the current Directory
+$ ls  
+--> To show all the repository in the current Directory
 
-sudo mount /dev/filename ebsvolume
+$ sudo mount /dev/devicename ebsvolume
 
-df -h
+$ mountpoint /ebsvolume
+-->To check wheather it is mount or not.
+
+$ cd ..
+-->To go out from the current directory
+
+$ umount /ebsvolume/
+-->To unmount the volume
+
+$ df -h
