@@ -1,4 +1,5 @@
 $ sudo apt-get update 
+--> To update the packages
 
 $ lsblk
 --> List all the elastic block storage attach to the instance.
