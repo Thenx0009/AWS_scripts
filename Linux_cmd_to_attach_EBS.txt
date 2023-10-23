@@ -27,3 +27,4 @@ $ umount /ebsvolume/
 -->To unmount the volume
 
 $ df -h
+-->The amount of disk space available on the filesystem
