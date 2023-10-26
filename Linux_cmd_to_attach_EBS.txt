@@ -5,7 +5,7 @@ $ lsblk
 --> List all the elastic block storage attach to the instance.
 
 $ sudo file -s /dev/devicename  
---> To go in the root directory
+--> To check whether the device has data or filesystem
 
 $ sudo mkfs -t ext4 /dev/devicename  
 --> Use for formatting
