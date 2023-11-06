@@ -20,6 +20,7 @@ aws s3 mb s3://abc-01.bucket ### to create bucket
 aws s3 rb s3://abc-01.bucket ### to remove bucket
 
 ###To launch instance
+
 aws ec2 run-instances --image-id ami-0f5ee92e2d63afc18 --count 1 --instance-type t2.micro --key-name example-key --security-group-ids sg-0d134a6491c84df04 --subnet-id subnet-052bd5bc67c9b9479
 
 ###to delete instance
