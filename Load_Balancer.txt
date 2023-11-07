@@ -1,6 +1,4 @@
-LOAD BALANCER
-
-A load balancer is a critical component of modern web applications and services that distributes incoming network traffic across multiple servers or instances to ensure hidh availability,reliabilty ans sacalability. Load balancers play a crucial role in optimizing resource utilization and ensuring that no single server becomes overloaded,thus improving the performance.
+LOAD BALANCER--? A load balancer is a critical component of modern web applications and services that distributes incoming network traffic across multiple servers or instances to ensure hidh availability,reliabilty ans sacalability. Load balancers play a crucial role in optimizing resource utilization and ensuring that no single server becomes overloaded,thus improving the performance.
 
 Types of Load Balancers:
 
