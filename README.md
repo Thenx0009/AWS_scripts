@@ -11,7 +11,7 @@
 
 ## 1. Classic load balancer <a name="classic"></a>
 - Create atleast 3-4 instances with bootstrap script in the the 3 different availability zones.
-![Alt text](<screenshots\Capture.PNG>)
+![Alt text](screenshots/Capture.PNG)
 
 - Check whether all the instances are running by copying their public IP-address on the browser. 
 ![Alt text](<screenshots\Screenshot (41).png>)
