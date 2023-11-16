@@ -44,4 +44,4 @@ Do the same with all the remaining servers.
 
 - After doing the above task, now if we check the load balancer target instances it will show In-service.
 ![Alt text](<screenshots/Screenshot (55).png>)
-after this the load balancer will again start working.
+after this the load balancer will again start working but we can't access the instances by their public ip addresses.
