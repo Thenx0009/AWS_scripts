@@ -32,7 +32,7 @@ Instance3
 
 - Remove the access of instances that are directly accessed from their IP addresses. By removing the HTTP security group from each instances.
  ![Alt text](<screenshots/Screenshot (49).png>)
-Now, again copy the ip address of instances are running or not. If they are not respnse back it means you are on a right path.
+Now, again copy the ip address of instances are running or not. If they are not respnse back it means you are on a right path and the target-instances of load balancer will show Out of Service.
 ![Alt text](<screenshots/Screenshot (52).png>)
 
 - Now, again edit all the instances security group
