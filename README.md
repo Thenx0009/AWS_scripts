@@ -36,7 +36,7 @@ Now, again copy the ip address of instances are running or not. If they are not 
 ![Alt text](<screenshots/Screenshot (52).png>)
 
 - Now, again edit all the instances security group
-and add the Type-HTTP & source-add the security group of load balancer which shows in the below ss.Do the same with all the remaining servers.
+and add the Type-HTTP & source-add the security group of load balancer which shows in the below ss.
 ![Alt text](<screenshots/Screenshot (53).png>)
 Here we can see that the one instance which is attached to load balancer security group comes In-service.
 ![Alt text](<screenshots/Screenshot (54).png>)
