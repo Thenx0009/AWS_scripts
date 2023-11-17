@@ -11,7 +11,7 @@
 
 ## 1. Classic load balancer <a name="classic"></a>
 ![Alt text](screenshots/classic.PNG)
-***Create a Classic Load Balancer****
+**Create a Classic Load Balancer*
 - Create atleast 3-4 instances with bootstrap script in the the 3 different availability zones.
 ![Alt text](<screenshots/Screenshot (45).png>)
 
