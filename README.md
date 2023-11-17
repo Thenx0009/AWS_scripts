@@ -25,7 +25,7 @@ Instance2
 Instance3
 ![Alt text](<screenshots/Screenshot (44).png>)
 
-- Create Classic Load Balancer and add all the 3 target instances.
+- Create **Classic Load Balancer** and add all the 3 target instances.
 ![Alt text](<screenshots/Screenshot (48).png>)
 
 - Select the classic load balancer, go to details and copy the DNS name for example-http://classiclb-1652469063.ap-south-1.elb.amazonaws.com/.
@@ -54,4 +54,18 @@ after this the load balancer will again start working but we can't access the in
 
 ***Create a Application Load Balancer***
 
-- 
+- Create atleast 3-4 instances with bootstrap script in the the 3 different availability zones.
+![Alt text](<screenshots/Screenshot (45).png>)
+
+- Create **Target Group** of the running instances.
+![Alt text](<screenshots/Screenshot (56).png>)
+Below (blue-application) named target group has been created.
+![Alt text](<Screenshot (57).png>)
+
+- Create **Application Load Balancer**, give name to load balancer, select all avalability zones, create a security group, add a target group, create load balancer.
+![Alt text](<screenshots/Screenshot (58).png>)
+
+- Copy the DNS name and Paste it on the browser, reload the page again and again to check whether load balancer is working or not. 
+![Alt text](screenshots/app-working.PNG)
+
+***Path Base Routing in Application Load Balancer***
