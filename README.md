@@ -68,4 +68,7 @@ Below (blue-application) named target group has been created.
 - Copy the DNS name and Paste it on the browser, reload the page again and again to check whether load balancer is working or not. 
 ![Alt text](screenshots/app-working.PNG)
 
-***Path Base Routing in Application Load Balancer***
+[***Path Base Routing in Application Load Balancer***](https://www.youtube.com/watch?v=rk-WLPjV09U&list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du&index=43&ab_channel=GauravSharma)
+
+
+

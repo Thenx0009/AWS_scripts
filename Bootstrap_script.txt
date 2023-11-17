@@ -2,3 +2,10 @@
 apt-get update 
 apt-get install nginx -y
 echo "welcome to instance1" > /var/www/html/index.html
+
+#Application load balancer script
+#!/bin/bash
+apt-get update 
+apt-get install nginx -y
+mkdir -p /var/www/html/test
+echo "welcome to test-instance1" > /var/www/html/index.html
