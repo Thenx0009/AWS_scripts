@@ -60,7 +60,7 @@ after this the load balancer will again start working but we can't access the in
 - Create **Target Group** of the running instances.
 ![Alt text](<screenshots/Screenshot (56).png>)
 Below (blue-application) named target group has been created.
-![Alt text](<Screenshot (57).png>)
+![Alt text](<screenshots/Screenshot (57).png>)
 
 - Create **Application Load Balancer**, give name to load balancer, select all avalability zones, create a security group, add a target group, create load balancer.
 ![Alt text](<screenshots/Screenshot (58).png>)
@@ -71,6 +71,8 @@ Below (blue-application) named target group has been created.
 - Hence, follow the same steps of CLB to remove access of instances through HTTP port.
 
 [***Path Base Routing in Application Load Balancer***](https://www.youtube.com/watch?v=rk-WLPjV09U&list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du&index=43&ab_channel=GauravSharma)
+
+## 3. Network load balancer <a name="network"></a>
 
 
 
