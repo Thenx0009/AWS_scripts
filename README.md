@@ -50,6 +50,8 @@ Do the same with all the remaining servers.
 after this the load balancer will again start working but we can't access the instances by their public ip addresses.
 
 ## 2. Application load balancer <a name="application"></a>
-
 ![Alt text](screenshots/apllication.PNG)
+
+***Create a Application Load Balancer***
+
 - 
