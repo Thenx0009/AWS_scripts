@@ -10,6 +10,8 @@
 - [Gateway load balancer](#gateway)
 
 ## 1. Classic load balancer <a name="classic"></a>
+![Alt text](screenshots/classic.PNG)
+***Create a Classic Load Balancer****
 - Create atleast 3-4 instances with bootstrap script in the the 3 different availability zones.
 ![Alt text](<screenshots/Screenshot (45).png>)
 
@@ -47,4 +49,5 @@ Do the same with all the remaining servers.
 after this the load balancer will again start working but we can't access the instances by their public ip addresses.
 
 ## 2. Application load balancer <a name="application"></a>
+![Alt text](screenshots/apllication.PNG)
 - 
