@@ -73,6 +73,21 @@ Below (blue-application) named target group has been created.
 [***Path Base Routing in Application Load Balancer***](https://www.youtube.com/watch?v=rk-WLPjV09U&list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du&index=43&ab_channel=GauravSharma)
 
 ## 3. Network load balancer <a name="network"></a>
+![Alt text](screenshots/network.PNG)
+- It works on the Transport Layer.
+- Its works is to send the request from the IP address to the specific port number.
+- This LB doesn't have much details as ALB.so,it's fast.
 
+***Create a Network Load Balancer***
+- Create atleast 3-4 instances with bootstrap script in the the 3 different availability zones.
+![Alt text](<screenshots/Screenshot (45).png>)
 
+- Create **Target Group** of the running instances.
+![Alt text](<screenshots/Screenshot (56).png>)
+Below (Network-lb-tg) named target group has been created.
+![Alt text](<screenshots/Screenshot (60).png>)
 
+ - Create **Network Load Balancer**, give name to load balancer, select all avalability zones, create a security group, add a target group, create load balancer.
+![Alt text](<screenshots/Screenshot (61).png>)
+
+- Copy the DNS name and Paste it on the browser, reload the page again and again to check whether load balancer is working or not.
