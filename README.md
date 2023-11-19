@@ -72,6 +72,7 @@ Below (blue-application) named target group has been created.
 
 [***Path Base Routing in Application Load Balancer***](https://www.youtube.com/watch?v=rk-WLPjV09U&list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du&index=43&ab_channel=GauravSharma)
 
+
 ## 3. Network load balancer <a name="network"></a>
 ![Alt text](screenshots/network.PNG)
 - It works on the Transport Layer.
