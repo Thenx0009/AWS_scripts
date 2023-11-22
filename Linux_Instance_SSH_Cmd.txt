@@ -46,6 +46,9 @@ $nginx -t
 $service nginx status
 -->to check nginx service has been STARTED or NOT.
 
+$sudo systemctl restart nginx
+-->to restart the nginx
+
 $curl localhost
 -->to access the localhost.
 [OUTPUT===>Welcome to nginx!]
