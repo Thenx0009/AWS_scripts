@@ -16,7 +16,9 @@ $ sudo mkdir ebsvolume
 $ ls  
 --> To show all the repository in the current Directory
 
+
 $ sudo mount /dev/devicename ebsvolume
+
 
 $ mountpoint /ebsvolume
 -->To check wheather it is mount or not.
