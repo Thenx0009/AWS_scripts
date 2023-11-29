@@ -94,4 +94,4 @@ Below (Network-lb-tg) named target group has been created.
 - Copy the DNS name and Paste it on the browser, reload the page again and again to check whether load balancer is working or not.
 ![Alt text](screenshots/nb.PNG)
 
-- Hence, follow the same steps of CLB to remove HTTP port access from the instances.
+- Hence,follow the same steps of CLB to remove HTTP port access from the instances.
