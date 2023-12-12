@@ -6,10 +6,12 @@ Types of Auto-Scaling:-
 1)Vertical Scaling involves adding more power (CPU, RAM, storage, etc.) to an existing machine.
 
 USECASES
+
 -suppose, we have the liciense of an OS(win) then, we can increse the system specifications to reduce the cost of taking extra servers with the license.
 - same with the DATABASE.
 
 2)Horizonatal Scaling involves adding more machines or nodes to a system
 
 USECASES
+
 -increasing the servers during high computation on one server.
