@@ -1,4 +1,4 @@
-**************CMDs for BASH to start the LINUX Instance**********
+**************CMDs for BASH to start the LINUX     Instance**********
 
 Step1: Go To The Downloads Where The Key Pair Is Stored And Open The Git Bash There.
 
