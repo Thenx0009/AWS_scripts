@@ -1,6 +1,7 @@
 AWS Auto-Scaling is a mechanism that automatically permits you to increase or decrease your resources to meet demand based on custom-defined metrics and thresholds.
 Through Auto-scaling, it’s simple to set up application scaling for multiple resources across multiple services in minutes.
 
+
 Types of Auto-Scaling:-
 
 1)Vertical Scaling involves adding more power (CPU, RAM, storage, etc.) to an existing machine.
