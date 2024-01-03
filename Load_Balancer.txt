@@ -36,7 +36,6 @@ Types of Load Balancers:
     different network environments.
 
 Use Cases and Benefits of Load Balancers:
-
 1)High Availability
 2)Scalability
 3)Improved Performance
