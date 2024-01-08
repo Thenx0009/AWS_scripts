@@ -5,7 +5,6 @@ apt-get install nginx -y
 echo "welcome.........1" > /var/www/html/index.html
 
 #To deal with CLI
-
 aws --version ### for checking version of aws cli
 
 aws configure ### for configuring IAM user
