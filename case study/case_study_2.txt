@@ -1,0 +1,12 @@
+Case Study : Amazon EC2 (Elastic Compute Cloud)
+
+Scenario: You work for a startup that is rapidly growing its customer base. The company needs to scale its web application to handle increased traffic and ensure high availability.
+
+Objectives:
+
+Launch EC2 instances in an Auto Scaling group to handle variable traffic loads.
+Configure the Auto Scaling group to automatically add or remove instances based on CPU utilization.
+Implement a load balancer to distribute traffic across multiple EC2 instances.
+Set up CloudWatch alarms to trigger scaling actions.
+Ensure that your application is fault-tolerant and can withstand EC2 instance failures.
+Case Study 2: Amazon EBS (Elastic Block Store)

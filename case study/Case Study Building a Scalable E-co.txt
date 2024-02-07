@@ -1,0 +1,15 @@
+Case Study: Building a Scalable E-commerce Website
+
+Scenario: You are tasked with building an e-commerce website for a growing online retailer. The website must handle high traffic during holiday seasons and ensure data security.
+
+Objectives:
+
+Launch multiple EC2 instances in an Auto Scaling group to handle traffic spikes.
+Use Elastic Load Balancing to distribute incoming requests across instances.
+Store product images and customer data in S3 buckets with versioning enabled.
+Implement a DynamoDB database to manage product inventory and customer orders.
+Set up RDS for managing customer accounts and payment information.
+Create a custom AMI with the web application and deploy it across instances.
+Regularly back up customer data to EBS snapshots and manage retention policies.
+Configure CloudFront to deliver website content with low latency.
+Monitor the application using CloudWatch and set up alarms for scaling actions.
